@@ -1,0 +1,32 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+sqlalchemy-teradata = "*"
+
+[packages]
+pandas = "*"
+rpy2 = "*"
+sqlalchemy = "*"
+teradata = "*"
+six = "*"
+tzlocal = "*"
+sqlalchemy-teradata = "*"
+pytest = "*"
+coverage = "*"
+pytest-cov = "*"
+scipy = "*"
+black = "*"
+tomlkit = "*"
+boto3 = "*"
+pyarrow = "*"
+pysftp = "==0.2.8"
+botocore = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
